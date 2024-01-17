@@ -12,18 +12,21 @@ To use the tool, follow the instructions below:
 
 ### Installation Steps
 1. Clone the repository:
+    ```bash
     git clone git@github.com:jpjayprasad-dev/healthcare-bot.git
     cd healthcare-bot
-
-2. Install the required Python packages:    
+    ```
+2. Install the required Python packages:
+    ```bash
     pip install -r requirements.txt
-
+    ```
 3. Obtain OpenAI API Key:
     Set your OpenAI API key as an environment variable named OPENAI_KEY or store it in a file named open_ai_key.txt.
 
 4. Run the tool:
+    ```bash
     python main.py
-
+    ```
 ### Usage
 Lab Report Processing:
 The script processes PDF lab reports, extracts text, and organizes it into a DataFrame.
@@ -55,9 +58,9 @@ Response Generation:
 Uses GPT-3.5-turbo for generating informative responses.
 
 ### Dependencies
-pdfplumber
-pandas
-tiktoken
-openai
-chromadb
-sentence_transformers
+    pdfplumber
+    pandas
+    tiktoken
+    openai
+    chromadb
+    sentence_transformers
